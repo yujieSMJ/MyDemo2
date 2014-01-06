@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63B0DD3B186BDCCB00460EB7 /* SynchronousRequst.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0DD3A186BDCCB00460EB7 /* SynchronousRequst.m */; };
+		63B0DD3E186BE1A600460EB7 /* AsynchronousRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0DD3D186BE1A600460EB7 /* AsynchronousRequest.m */; };
 		FAA37E101831D2AF005DF344 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA37E0F1831D2AF005DF344 /* Foundation.framework */; };
 		FAA37E121831D2AF005DF344 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA37E111831D2AF005DF344 /* CoreGraphics.framework */; };
 		FAA37E141831D2AF005DF344 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA37E131831D2AF005DF344 /* UIKit.framework */; };
@@ -19,6 +21,26 @@
 		FAA37E2B1831D2AF005DF344 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA37E131831D2AF005DF344 /* UIKit.framework */; };
 		FAA37E331831D2AF005DF344 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAA37E311831D2AF005DF344 /* InfoPlist.strings */; };
 		FAA37E351831D2AF005DF344 /* MyDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA37E341831D2AF005DF344 /* MyDemo2Tests.m */; };
+		FAA420B218360ACA00AA40BD /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA420B118360ACA00AA40BD /* CustomCell.m */; };
+		FAA420B418360B2400AA40BD /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA420B318360B2400AA40BD /* CustomCell.xib */; };
+		FAA4DE411835CD0F0027541A /* FirstUser.xml in Resources */ = {isa = PBXBuildFile; fileRef = FAA4DE401835CD0F0027541A /* FirstUser.xml */; };
+		FAA4DE451835D0FC0027541A /* FirstXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4DE441835D0FC0027541A /* FirstXmlParser.m */; };
+		FAA8501C1834518F003AA4A7 /* Root.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA8501B1834518F003AA4A7 /* Root.xib */; };
+		FAA85020183455F5003AA4A7 /* NavigateController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8501E183455F5003AA4A7 /* NavigateController.m */; };
+		FAA8502518345680003AA4A7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8502318345680003AA4A7 /* FirstViewController.m */; };
+		FAA8502618345680003AA4A7 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA8502418345680003AA4A7 /* FirstViewController.xib */; };
+		FAA8502A1834583F003AA4A7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA850281834583F003AA4A7 /* SecondViewController.m */; };
+		FAA8502B1834583F003AA4A7 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA850291834583F003AA4A7 /* SecondViewController.xib */; };
+		FAA8502E18345981003AA4A7 /* NavigateTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8502D18345981003AA4A7 /* NavigateTwoController.m */; };
+		FAA85032183459A9003AA4A7 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA85030183459A9003AA4A7 /* ThirdViewController.m */; };
+		FAA85033183459A9003AA4A7 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA85031183459A9003AA4A7 /* ThirdViewController.xib */; };
+		FAA8503718345B11003AA4A7 /* JumpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8503518345B11003AA4A7 /* JumpViewController.m */; };
+		FAA8503818345B11003AA4A7 /* JumpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA8503618345B11003AA4A7 /* JumpViewController.xib */; };
+		FAB5628F1834813C0080EA3C /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB5628D1834813C0080EA3C /* FourViewController.m */; };
+		FAB562901834813C0080EA3C /* FourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB5628E1834813C0080EA3C /* FourViewController.xib */; };
+		FAB562941834A15A0080EA3C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB562921834A15A0080EA3C /* TableViewController.m */; };
+		FAB562951834A15A0080EA3C /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB562931834A15A0080EA3C /* TableViewController.xib */; };
+		FAB562971834BCDE0080EA3C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB562961834BCDE0080EA3C /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +54,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63B0DD39186BDCCB00460EB7 /* SynchronousRequst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynchronousRequst.h; sourceTree = "<group>"; };
+		63B0DD3A186BDCCB00460EB7 /* SynchronousRequst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchronousRequst.m; sourceTree = "<group>"; };
+		63B0DD3C186BE1A600460EB7 /* AsynchronousRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynchronousRequest.h; sourceTree = "<group>"; };
+		63B0DD3D186BE1A600460EB7 /* AsynchronousRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynchronousRequest.m; sourceTree = "<group>"; };
 		FAA37E0C1831D2AF005DF344 /* MyDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA37E0F1831D2AF005DF344 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAA37E111831D2AF005DF344 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +74,36 @@
 		FAA37E301831D2AF005DF344 /* MyDemo2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyDemo2Tests-Info.plist"; sourceTree = "<group>"; };
 		FAA37E321831D2AF005DF344 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAA37E341831D2AF005DF344 /* MyDemo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDemo2Tests.m; sourceTree = "<group>"; };
+		FAA420B018360ACA00AA40BD /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		FAA420B118360ACA00AA40BD /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		FAA420B318360B2400AA40BD /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		FAA4DE401835CD0F0027541A /* FirstUser.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = FirstUser.xml; sourceTree = "<group>"; };
+		FAA4DE431835D0FC0027541A /* FirstXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstXmlParser.h; sourceTree = "<group>"; };
+		FAA4DE441835D0FC0027541A /* FirstXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstXmlParser.m; sourceTree = "<group>"; };
+		FAA8501B1834518F003AA4A7 /* Root.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Root.xib; sourceTree = "<group>"; };
+		FAA8501D183455F5003AA4A7 /* NavigateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigateController.h; sourceTree = "<group>"; };
+		FAA8501E183455F5003AA4A7 /* NavigateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigateController.m; sourceTree = "<group>"; };
+		FAA8502218345680003AA4A7 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FAA8502318345680003AA4A7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FAA8502418345680003AA4A7 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		FAA850271834583F003AA4A7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FAA850281834583F003AA4A7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FAA850291834583F003AA4A7 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		FAA8502C18345981003AA4A7 /* NavigateTwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigateTwoController.h; sourceTree = "<group>"; };
+		FAA8502D18345981003AA4A7 /* NavigateTwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigateTwoController.m; sourceTree = "<group>"; };
+		FAA8502F183459A9003AA4A7 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		FAA85030183459A9003AA4A7 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		FAA85031183459A9003AA4A7 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		FAA8503418345B11003AA4A7 /* JumpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpViewController.h; sourceTree = "<group>"; };
+		FAA8503518345B11003AA4A7 /* JumpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpViewController.m; sourceTree = "<group>"; };
+		FAA8503618345B11003AA4A7 /* JumpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JumpViewController.xib; sourceTree = "<group>"; };
+		FAB5628C1834813C0080EA3C /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		FAB5628D1834813C0080EA3C /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		FAB5628E1834813C0080EA3C /* FourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourViewController.xib; sourceTree = "<group>"; };
+		FAB562911834A15A0080EA3C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		FAB562921834A15A0080EA3C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		FAB562931834A15A0080EA3C /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		FAB562961834BCDE0080EA3C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB562971834BCDE0080EA3C /* libsqlite3.dylib in Frameworks */,
 				FAA37E121831D2AF005DF344 /* CoreGraphics.framework in Frameworks */,
 				FAA37E141831D2AF005DF344 /* UIKit.framework in Frameworks */,
 				FAA37E101831D2AF005DF344 /* Foundation.framework in Frameworks */,
@@ -74,6 +131,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63B0DD35186BD59900460EB7 /* fenghzhuanglei */ = {
+			isa = PBXGroup;
+			children = (
+				63B0DD39186BDCCB00460EB7 /* SynchronousRequst.h */,
+				63B0DD3A186BDCCB00460EB7 /* SynchronousRequst.m */,
+				63B0DD3C186BE1A600460EB7 /* AsynchronousRequest.h */,
+				63B0DD3D186BE1A600460EB7 /* AsynchronousRequest.m */,
+			);
+			name = fenghzhuanglei;
+			sourceTree = "<group>";
+		};
 		FAA37E031831D2AF005DF344 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +164,7 @@
 		FAA37E0E1831D2AF005DF344 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAB562961834BCDE0080EA3C /* libsqlite3.dylib */,
 				FAA37E0F1831D2AF005DF344 /* Foundation.framework */,
 				FAA37E111831D2AF005DF344 /* CoreGraphics.framework */,
 				FAA37E131831D2AF005DF344 /* UIKit.framework */,
@@ -107,10 +176,16 @@
 		FAA37E151831D2AF005DF344 /* MyDemo2 */ = {
 			isa = PBXGroup;
 			children = (
+				63B0DD35186BD59900460EB7 /* fenghzhuanglei */,
+				FAA4DE421835D0B40027541A /* Parserxml */,
 				FAA37E1E1831D2AF005DF344 /* AppDelegate.h */,
 				FAA37E1F1831D2AF005DF344 /* AppDelegate.m */,
+				FAA8501B1834518F003AA4A7 /* Root.xib */,
 				FAA37E211831D2AF005DF344 /* Images.xcassets */,
+				FAA8503B1834643A003AA4A7 /* views */,
 				FAA37E161831D2AF005DF344 /* Supporting Files */,
+				FAA8503A18345DB0003AA4A7 /* TarBarITems */,
+				FAA4DE401835CD0F0027541A /* FirstUser.xml */,
 			);
 			path = MyDemo2;
 			sourceTree = "<group>";
@@ -142,6 +217,54 @@
 				FAA37E311831D2AF005DF344 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAA4DE421835D0B40027541A /* Parserxml */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4DE431835D0FC0027541A /* FirstXmlParser.h */,
+				FAA4DE441835D0FC0027541A /* FirstXmlParser.m */,
+			);
+			name = Parserxml;
+			sourceTree = "<group>";
+		};
+		FAA8503A18345DB0003AA4A7 /* TarBarITems */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8501D183455F5003AA4A7 /* NavigateController.h */,
+				FAA8501E183455F5003AA4A7 /* NavigateController.m */,
+				FAA8502218345680003AA4A7 /* FirstViewController.h */,
+				FAA8502318345680003AA4A7 /* FirstViewController.m */,
+				FAA8502418345680003AA4A7 /* FirstViewController.xib */,
+				FAA850271834583F003AA4A7 /* SecondViewController.h */,
+				FAA850281834583F003AA4A7 /* SecondViewController.m */,
+				FAA850291834583F003AA4A7 /* SecondViewController.xib */,
+				FAA8502C18345981003AA4A7 /* NavigateTwoController.h */,
+				FAA8502D18345981003AA4A7 /* NavigateTwoController.m */,
+				FAA8502F183459A9003AA4A7 /* ThirdViewController.h */,
+				FAA85030183459A9003AA4A7 /* ThirdViewController.m */,
+				FAA85031183459A9003AA4A7 /* ThirdViewController.xib */,
+			);
+			name = TarBarITems;
+			sourceTree = "<group>";
+		};
+		FAA8503B1834643A003AA4A7 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FAB562911834A15A0080EA3C /* TableViewController.h */,
+				FAB562921834A15A0080EA3C /* TableViewController.m */,
+				FAB562931834A15A0080EA3C /* TableViewController.xib */,
+				FAA8503418345B11003AA4A7 /* JumpViewController.h */,
+				FAA8503518345B11003AA4A7 /* JumpViewController.m */,
+				FAA8503618345B11003AA4A7 /* JumpViewController.xib */,
+				FAB5628C1834813C0080EA3C /* FourViewController.h */,
+				FAB5628D1834813C0080EA3C /* FourViewController.m */,
+				FAB5628E1834813C0080EA3C /* FourViewController.xib */,
+				FAA420B018360ACA00AA40BD /* CustomCell.h */,
+				FAA420B118360ACA00AA40BD /* CustomCell.m */,
+				FAA420B318360B2400AA40BD /* CustomCell.xib */,
+			);
+			name = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +343,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA37E1A1831D2AF005DF344 /* InfoPlist.strings in Resources */,
+				FAA8502618345680003AA4A7 /* FirstViewController.xib in Resources */,
+				FAA8503818345B11003AA4A7 /* JumpViewController.xib in Resources */,
+				FAA420B418360B2400AA40BD /* CustomCell.xib in Resources */,
+				FAA85033183459A9003AA4A7 /* ThirdViewController.xib in Resources */,
+				FAA8502B1834583F003AA4A7 /* SecondViewController.xib in Resources */,
+				FAA8501C1834518F003AA4A7 /* Root.xib in Resources */,
+				FAB562901834813C0080EA3C /* FourViewController.xib in Resources */,
 				FAA37E221831D2AF005DF344 /* Images.xcassets in Resources */,
+				FAA4DE411835CD0F0027541A /* FirstUser.xml in Resources */,
+				FAB562951834A15A0080EA3C /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +371,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA8502A1834583F003AA4A7 /* SecondViewController.m in Sources */,
+				FAA85020183455F5003AA4A7 /* NavigateController.m in Sources */,
+				FAA420B218360ACA00AA40BD /* CustomCell.m in Sources */,
+				63B0DD3E186BE1A600460EB7 /* AsynchronousRequest.m in Sources */,
+				FAA8503718345B11003AA4A7 /* JumpViewController.m in Sources */,
+				FAB562941834A15A0080EA3C /* TableViewController.m in Sources */,
+				FAB5628F1834813C0080EA3C /* FourViewController.m in Sources */,
+				63B0DD3B186BDCCB00460EB7 /* SynchronousRequst.m in Sources */,
 				FAA37E201831D2AF005DF344 /* AppDelegate.m in Sources */,
 				FAA37E1C1831D2AF005DF344 /* main.m in Sources */,
+				FAA8502518345680003AA4A7 /* FirstViewController.m in Sources */,
+				FAA8502E18345981003AA4A7 /* NavigateTwoController.m in Sources */,
+				FAA4DE451835D0FC0027541A /* FirstXmlParser.m in Sources */,
+				FAA85032183459A9003AA4A7 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +585,7 @@
 				FAA37E3A1831D2AF005DF344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA37E3B1831D2AF005DF344 /* Build configuration list for PBXNativeTarget "MyDemo2Tests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +594,7 @@
 				FAA37E3D1831D2AF005DF344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

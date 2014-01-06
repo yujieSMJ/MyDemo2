@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppDelegate">
+            <connections>
+                <outlet property="TarBarController" destination="6mW-PX-7xH" id="FJI-13-3J2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tabBarController title="RootTitle" nibName="Root" definesPresentationContext="YES" id="6mW-PX-7xH">
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <tabBar key="tabBar" contentMode="scaleToFill" id="L0H-ep-ZjC">
+                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </tabBar>
+            <viewControllers>
+                <navigationController title="Tables" definesPresentationContext="YES" id="Ghh-O1-czv" customClass="NavigateTwoController">
+                    <tabBarItem key="tabBarItem" title="Customers" id="cIJ-e5-H8V"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0en-ae-FRR">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <tableViewController title="Tables" nibName="TableViewController" id="Fh2-gO-bcM" customClass="TableViewController">
+                            <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="kxE-hJ-i8i">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="499"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Fh2-gO-bcM" id="Ndz-qd-DNC"/>
+                                    <outlet property="delegate" destination="Fh2-gO-bcM" id="KpG-Wq-FF8"/>
+                                </connections>
+                            </tableView>
+                            <tabBarItem key="tabBarItem" title="Managers" id="UUD-Vv-I2c"/>
+                            <navigationItem key="navigationItem" title="Tables" id="ebW-xN-WSs"/>
+                            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                            <nil key="simulatedTopBarMetrics"/>
+                            <nil key="simulatedBottomBarMetrics"/>
+                            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                        </tableViewController>
+                    </viewControllers>
+                </navigationController>
+                <navigationController title="FirstNavigation" nibName="NavigateController" definesPresentationContext="YES" id="hpx-yt-XRZ" customClass="NavigateController">
+                    <tabBarItem key="tabBarItem" title="Second" id="8IL-OZ-llG"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <nil key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FJT-ot-0vk">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController title="Second" nibName="SecondViewController" id="tfE-WS-5TB" customClass="SecondViewController">
+                            <navigationItem key="navigationItem" title="The First Nav" id="V0i-5T-fic">
+                                <barButtonItem key="backBarButtonItem" title="Home" id="wp5-Vf-UAv"/>
+                            </navigationItem>
+                            <nil key="simulatedStatusBarMetrics"/>
+                            <nil key="simulatedTopBarMetrics"/>
+                            <nil key="simulatedBottomBarMetrics"/>
+                            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                            <nil key="simulatedDestinationMetrics"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+                <viewController title="First" nibName="FirstViewController" id="5VK-ou-4QX" customClass="FirstViewController">
+                    <tabBarItem key="tabBarItem" title="First" id="fHs-Zy-ENU"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <nil key="simulatedDestinationMetrics"/>
+                </viewController>
+                <navigationController title="SecondNav" nibName="NavigateTwoController" definesPresentationContext="YES" id="Z3H-LV-GIz" customClass="NavigateTwoController">
+                    <tabBarItem key="tabBarItem" title="Third" id="Qgt-1L-Wfk"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tNR-yw-Gs4">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController title="Third" nibName="ThirdViewController" id="lHA-gC-Hxz" customClass="ThirdViewController">
+                            <navigationItem key="navigationItem" title="Item" id="0iE-9r-jg2"/>
+                            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                            <nil key="simulatedTopBarMetrics"/>
+                            <nil key="simulatedBottomBarMetrics"/>
+                            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                            <nil key="simulatedDestinationMetrics"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+            </viewControllers>
+        </tabBarController>
+    </objects>
+</document>

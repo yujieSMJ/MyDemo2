@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <div id="1">
+        <h1>目录视图</h1>
+        <ul>文本内容：我是一只小小鸟，想要飞啊飞的高</ul>
+        <a>链接www.baidu.com</a>
+        <span>2013-9-15</span>
+        </div>
+    <div id="2">
+        <h1>摘要视图</h1>
+        <ul>文本内容：好大一棵树，最美的祝福</ul>
+        <a>链接www.wangwang.com.cn</a>
+        <span>2013-9-26</span>
+    </div>
+    <div id="3">
+        <h1>模态视图</h1>
+        <ul>文本内容：此文只应天上有，人间哪得几回闻！</ul>
+        <a>链接www.sougou.com</a>
+        <span>2013-10-1</span>
+    </div>
+    <div id="4">
+        <h1>广播视图</h1>
+        <ul>文本内容：将消息广播出去，只有拥有对应key的对象才能操作</ul>
+        <a>链接www.google.com</a>
+        <span>2013-10-16</span>
+    </div>
+    <div id="5">
+        <h1>代理视图</h1>
+        <ul>文本内容：通过代理的方式实现数据传输－－回调</ul>
+        <a>链接www.qq.com</a>
+        <span>2013-10-26</span>
+    </div>
+</body>
